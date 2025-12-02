@@ -1,0 +1,2 @@
+Implementation detect object for best speed inference for real time. It is based on the idea from repository github.com/swdee/go-rknnlite/tree/master/example/stream.
+The main idea for in parallelizing prediction, for example 4 threads (worker) are created and in each thread a freame is read and infered. The result is 4 streams, 4 models and different images working in parallel. One model in one stream is not allowed to make an inference of more than one image.
