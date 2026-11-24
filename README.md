@@ -102,6 +102,9 @@ rknn-toolkit2 используется для конвертации, квант
 
 Полезные ссылки
 Пример, вдохновивший архитектуру: https://github.com/swdee/go-rknnlite/tree/master/example/stream
+
 Radxa ROCK 5B: https://wiki.radxa.com/ROCK5B
+
 Radxa Wiki: https://wiki.radxa.com/
+
 Документация RKNN (официальные примеры и рекомендации): см. материалы Rockchip/RKNN для RK3588
