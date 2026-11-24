@@ -59,7 +59,8 @@ rknn-toolkit2 используется для конвертации, квант
 
 На плате Radxa проверьте доступность RKNN API:
 
-python3 -c "import rknn.api as api; print(api.__version__)"
+`python3 -c "import rknn.api as api; print(api.__version__)"`
+
 Если импорт не проходит — убедитесь, что установлены пакеты RKNN runtime для вашего образа ОС. В официальных образах Radxa они часто уже присутствуют либо доступны в репозиториях Radxa.
 
 **Зависимости проекта**
@@ -76,7 +77,7 @@ python3 -c "import rknn.api as api; print(api.__version__)"
 
 Запустите пайплайн детекции:
 
-python3 detect_demo_rknn.py
+`python3 detect_parellel_rknn.py`
 
 Наблюдайте за FPS и загрузкой CPU/NPU, при необходимости корректируйте число потоков.
 
